@@ -1,0 +1,41 @@
+.markdown > h2 {
+  @apply text-3xl font-black mt-16 mb-8;
+}
+
+.markdown > h3 {
+  @apply text-2xl font-black mt-16 mb-8;
+}
+
+.markdown > h4 {
+  @apply font-black uppercase mt-16 mb-8;
+}
+
+.markdown > h5 {
+  @apply text-sm font-black mt-16 mb-8;
+}
+
+.markdown > h6 {
+  @apply text-xs font-black mt-16 mb-8;
+}
+
+.markdown a {
+  @apply text-blue-600;
+}
+
+
+.markdown > p {
+  @apply mb-8;
+}
+
+.markdown > blockquote {
+  @apply -ml-8 mb-8;
+}
+
+.markdown ul {
+  @apply list-disc mb-8;
+}
+
+.markdown ol {
+  @apply list-decimal mb-8;
+}
+

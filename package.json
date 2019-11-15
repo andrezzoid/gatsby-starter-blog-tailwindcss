@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "gatsby-starter-blog-tailwindcss",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "A starter for a blog powered by Gatsby, Markdown and TailwindCSS",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "André Jonas <andre.jonas@gmail.com>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/andrezzoid/gatsby-starter-blog-tailwindcss/issues"
   },
   "dependencies": {
     "gatsby": "^2.17.11",
@@ -14,6 +14,7 @@
     "gatsby-plugin-google-analytics": "^2.1.25",
     "gatsby-plugin-manifest": "^2.2.27",
     "gatsby-plugin-offline": "^3.0.19",
+    "gatsby-plugin-postcss": "^2.1.15",
     "gatsby-plugin-react-helmet": "^3.1.14",
     "gatsby-plugin-sharp": "^2.2.37",
     "gatsby-plugin-typography": "^2.3.16",
@@ -30,6 +31,7 @@
     "react-dom": "^16.11.0",
     "react-helmet": "^5.2.1",
     "react-typography": "^0.16.19",
+    "tailwindcss": "^1.1.3",
     "typeface-merriweather": "0.0.72",
     "typeface-montserrat": "0.0.75",
     "typography": "^0.16.19",
@@ -38,7 +40,7 @@
   "devDependencies": {
     "prettier": "^1.19.1"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://github.com/andrezzoid/gatsby-starter-blog-tailwindcss#readme",
   "keywords": [
     "gatsby"
   ],
@@ -46,7 +48,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/andrezzoid/gatsby-starter-blog-tailwindcss.git"
   },
   "scripts": {
     "build": "gatsby build",

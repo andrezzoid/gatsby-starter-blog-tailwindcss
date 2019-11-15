@@ -21,12 +21,11 @@ class BlogIndex extends React.Component {
           return (
             <article key={node.fields.slug}>
               <header>
-                <h3
-                  style={{
-                    marginBottom: rhythm(1 / 4),
-                  }}
-                >
-                  <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                <h3 className="text-2xl font-black mt-16 mb-2">
+                  <Link
+                    className="text-blue-600 shadow-none"
+                    to={node.fields.slug}
+                  >
                     {title}
                   </Link>
                 </h3>
@@ -34,6 +33,7 @@ class BlogIndex extends React.Component {
               </header>
               <section>
                 <p
+                  className="mb-8"
                   dangerouslySetInnerHTML={{
                     __html: node.frontmatter.description || node.excerpt,
                   }}
